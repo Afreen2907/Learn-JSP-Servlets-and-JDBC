@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<%!
+			String makeItLower(String data){
+				return data.toLowerCase();
+		}
+		%>
+		
+		Make hello world lower: <%= makeItLower("Hello World") %>
+	</body>
+</html>
